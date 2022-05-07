@@ -255,7 +255,7 @@
 
 <!-- HTML -->
 <svelte:head>
-  <title>KanaQuiz</title>
+  <title>Kana Renshū</title>
 </svelte:head>
 
 <div class="app">
