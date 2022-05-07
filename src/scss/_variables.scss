@@ -1,0 +1,29 @@
+$br--rounded: 0.25rem;
+
+$space-from-header: 0.5rem;
+
+$box-shadow--1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$box-shadow--2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+$box-shadow--3: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+$box-shadow--4: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+$box-shadow--5: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+$box-shadow--inset-1: inset 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$box-shadow--inset-2: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+$box-shadow--inset-3: inset 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+$box-shadow--inset-4: inset 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+$box-shadow--inset-5: inset 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+$btn--letter-spacing: 0.0892857143em; // Yoinked from Material.io
+
+$breakpoint--min-phone: 576px;
+$breakpoint--min-tablet: 768px;
+$breakpoint--min-desktop: 992px;
+$breakpoint--min-xl: 1200px;
+$breakpoint--min-xxl: 1400px;
+
+$breakpoint--max-phone: 575.98px;
+$breakpoint--max-tablet: 767.98px;
+$breakpoint--max-desktop: 991.98px;
+$breakpoint--max-xl: 1199.98px;
+$breakpoint--max-xxl: 1399.98px;

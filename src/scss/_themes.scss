@@ -1,0 +1,138 @@
+@use "./variables" as *;
+
+// Brand
+$primary-color-dark--50: #f1f8e9;
+$primary-color-dark--100: #dcedc8;
+$primary-color-dark--200: #c5e1a5;
+$primary-color-dark--300: #aed581;
+$primary-color-dark--400: #9ccc65;
+$primary-color-dark--500: #8bc34a;
+$primary-color-dark--600: #7cb342;
+$primary-color-dark--700: #689f38;
+$primary-color-dark--800: #558b2f;
+$primary-color-dark--900: #33691e;
+
+$primary-color-light--50: #e5f6ea;
+$primary-color-light--100: #c1e8ca;
+$primary-color-light--200: #98d9a9;
+$primary-color-light--300: #6bcb86;
+$primary-color-light--400: #44c06c;
+$primary-color-light--500: #00b451;
+$primary-color-light--600: #00a547;
+$primary-color-light--700: #00933c;
+$primary-color-light--800: #008130;
+$primary-color-light--900: #00621b;
+
+$primary-color-light: $primary-color-light--500;
+$primary-light-light: $primary-color-light--300;
+$primary-dark-light: $primary-color-light--700;
+
+$error-light: #cf6679;
+$error-dark: #b00020;
+
+$background-primary-dark: hsl(0, 0%, 8%);
+$background-secondary-dark: hsl(0, 0%, 5%);
+$background--400: hsl(0, 0%, 10%);
+
+$background-primary-light: #fff;
+$background-secondary-light: hsl(4, 20%, 98%);
+
+// Typography
+$text-primary-dark: rgba(255, 255, 255, 1);
+$text-secondary-dark: rgba(255, 255, 255, 0.7);
+$text-tertiary-dark: rgba(255, 255, 255, 0.3);
+
+$text-primary-light: rgba(0, 0, 0, 0.87);
+$text-secondary-light: rgba(0, 0, 0, 0.5413);
+$text-tertiary-light: rgba(0, 0, 0, 0.38);
+
+:root {
+  // Typography
+  --font-size--base: 16px;
+  --text-primary-dark: #{$text-primary-dark};
+  --text-secondary-dark: #{$text-secondary-dark};
+  --text-tertiary-dark: #{$text-tertiary-dark};
+
+  --text-primary-light: #{$text-primary-light};
+  --text-secondary-light: #{$text-secondary-light};
+  --text-tertiary-light: #{$text-tertiary-light};
+}
+
+@media (min-width: 992px) {
+  :root {
+    --font-size--base: 18px;
+  }
+}
+
+// X-Large devices
+@media (min-width: 1922px) {
+  :root {
+    --font-size--base: 22px;
+  }
+}
+
+@mixin dark-theme {
+  // Typography
+  --text-primary: #{$text-primary-dark};
+  --text-secondary: #{$text-secondary-dark};
+  --text-tertiary: #{$text-tertiary-dark};
+
+  --text-primary-flipped: #{$text-primary-light};
+
+  // Backgrounds
+  --background-primary: #{$background-primary-dark};
+  --background-secondary: #{$background-secondary-dark};
+
+  // Background Depth
+  --background--800: #{$background-secondary-dark};
+  --background--700: #{$background-primary-dark};
+  --background--600: hsl(0, 0%, 12%);
+  --background--500: hsl(0, 0%, 15%);
+
+  // Brand
+  --primary-color--50: #{$primary-color-dark--50};
+  --primary-color--100: #{$primary-color-dark--100};
+  --primary-color--200: #{$primary-color-dark--200};
+  --primary-color--300: #{$primary-color-dark--300};
+  --primary-color--400: #{$primary-color-dark--400};
+  --primary-color--500: #{$primary-color-dark--500};
+  --primary-color--600: #{$primary-color-dark--600};
+  --primary-color--700: #{$primary-color-dark--700};
+  --primary-color--800: #{$primary-color-dark--800};
+  --primary-color--900: #{$primary-color-dark--900};
+
+  --error: #{$error-dark};
+}
+
+@mixin light-theme {
+  // Typography
+  --text-primary: #{$text-primary-light};
+  --text-secondary: #{$text-secondary-light};
+  --text-tertiary: #{$text-tertiary-light};
+
+  --text-primary-flipped: #{$text-primary-dark};
+
+  // Backgrounds
+  --background-primary: #{$background-primary-light};
+  --background-secondary: #{$background-secondary-light};
+
+  // Background Depth
+  --background--800: #{$background-primary-light};
+  --background--700: #{$background-secondary-light};
+  --background--600: hsl(4, 4%, 90%);
+  --background--500: hsl(4, 2%, 80%);
+
+  // Brand
+  --primary-color--50: #{$primary-color-light--50};
+  --primary-color--100: #{$primary-color-light--100};
+  --primary-color--200: #{$primary-color-light--200};
+  --primary-color--300: #{$primary-color-light--300};
+  --primary-color--400: #{$primary-color-light--400};
+  --primary-color--500: #{$primary-color-light--500};
+  --primary-color--600: #{$primary-color-light--600};
+  --primary-color--700: #{$primary-color-light--700};
+  --primary-color--800: #{$primary-color-light--800};
+  --primary-color--900: #{$primary-color-light--900};
+
+  --error: #{$error-dark};
+}
