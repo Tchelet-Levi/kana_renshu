@@ -33,6 +33,9 @@
   let inputComponent: UserInput;
   let quizBoxComponent: QuizBox;
 
+  // Consts
+  const placeholderDefaultText = "Answer in romaji";
+
   // Internal state
   let userInput = "";
   let score = [0, 0];
@@ -42,7 +45,7 @@
   let hasAnsweredCorrectly = true;
   let pool = {};
   let isRevealed = false;
-  let placeholderText = "Answer in romaji";
+  let placeholderText = placeholderDefaultText;
 
   // Handle touch screens
   let isUsingTouchScreen = false;
@@ -130,6 +133,10 @@
       // Make a new question
       ({ question, answer } = generateQuestion(pool));
 
+      // Forget previous answer, to reset the green color, and change the placeholder to the default.
+      placeholderText = placeholderDefaultText;
+      hasAnsweredCorrectly = true;
+
       // Reset input
       userInput = "";
 
@@ -191,7 +198,7 @@
       hasAnsweredCorrectly = true;
 
       // Update placeholder text
-      placeholderText = "Answer in romaji";
+      placeholderText = placeholderDefaultText;
 
       // This is here to fix animation carrying over from previous question
       quizBoxComponent.nextQuestion();
