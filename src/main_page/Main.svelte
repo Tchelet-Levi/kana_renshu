@@ -325,7 +325,7 @@
     <div class="credits">
       <span
         >Made by <a
-          href="www.linkedin.com/in/tchelet-levi
+          href="https://www.linkedin.com/in/tchelet-levi
         "
           target="_blank"
           rel="noopener">Tchelet Levi</a
