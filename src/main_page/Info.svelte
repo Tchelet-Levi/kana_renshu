@@ -92,9 +92,9 @@
 
         <section>
           <h2>Who made this?</h2>
-          <p>Hi there! My name is Tchelet but my friends call me Mizu.</p>
+          <p>Hi there! My name is Tchelet, I'm an aspiring web developer from Israel.</p>
           <p>
-            I'm an aspiring web developer from Israel! <br />I made this little app to learn
+            I made this little app to learn
             <a href="https://svelte.dev/" target="_blank" rel="noreferrer">Svelte</a>
             and CSS (and boy did I learn a lot).
           </p>
@@ -104,7 +104,7 @@
           </p>
           <p>
             I'm hoping this website can be a nice place for learners, which is why I'm not including
-            any ads of any kind.
+            ads of any kind.
           </p>
           <p>Have fun! :)</p>
         </section>

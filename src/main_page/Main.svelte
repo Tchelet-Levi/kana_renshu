@@ -323,7 +323,14 @@
   </main>
   <footer>
     <div class="credits">
-      <span>Made by <a href="mailto:tchelet.ds@gmail.com">Tchelet Levi</a></span>
+      <span
+        >Made by <a
+          href="www.linkedin.com/in/tchelet-levi
+        "
+          target="_blank"
+          rel="noopener">Tchelet Levi</a
+        ></span
+      >
       <br />
       <span>I hope you find this tool useful! :)</span>
     </div>
