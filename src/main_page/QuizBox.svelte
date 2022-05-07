@@ -79,7 +79,7 @@
         <kbd>{osSpecificEnter()}</kbd> to answer.
       </p>
       <p>
-        If you find yourself stuck, press <strong>"SHOW"</strong> to reveal the answer, and
+        If you find yourself stuck, press <strong>"SKIP"</strong> to reveal the answer, and
         <strong>"NEXT"</strong> to go to the next question.
       </p>
       <p class="gl">Good luck!</p>

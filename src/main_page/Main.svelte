@@ -321,7 +321,7 @@
           <!-- Reveal answer button -->
           <div class="quiz-box-btn">
             <ButtonText onClick={onRevealClick} disabled={!question}
-              >{isRevealed ? "Next" : "Show"}</ButtonText
+              >{isRevealed ? "Next" : "Skip"}</ButtonText
             >
           </div>
         </div>
