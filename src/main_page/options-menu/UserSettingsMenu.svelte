@@ -15,7 +15,7 @@
 <div class="user-settings-wrapper">
   <!-- Allow Illegal Characters -->
   <Switch
-    label="Enforce Romaji"
+    label="Enforce Rōmaji"
     description="Prevents you from typing '123!@#'' and other similar characters."
     checked={$userSettings.forceRomajiInput}
     onChange={(e) => updateStore(e, "forceRomajiInput")}

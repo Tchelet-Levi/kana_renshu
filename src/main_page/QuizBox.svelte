@@ -74,10 +74,13 @@
     <div class="welcome-container">
       <h1>Welcome!</h1>
       <p>
-        This app aims to help you memorize Hiragana and Katakana.<br />
-
+        This app aims to help you memorize Hiragana and Katakana through short quizzes.<br />
         Simply type the character you see in Rōmaji <em>(The Latin alphabet)</em> and press
         <kbd>{osSpecificEnter()}</kbd> to answer.
+      </p>
+      <p>
+        If you find yourself stuck, press "SHOW" to reveal the answer, and "NEXT" to go to the next
+        question.
       </p>
       <p class="gl">Good luck!</p>
 
