@@ -2,8 +2,11 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "http://Tchelet-Levi.github.io/kana_renshu",
   "scripts": {
     "build": "rollup -c",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear --host",
     "check": "svelte-check --tsconfig ./tsconfig.json"
@@ -16,6 +19,7 @@
     "@rollup/plugin-url": "^6.1.0",
     "@tsconfig/svelte": "^2.0.0",
     "dart-sass": "^1.25.0",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
