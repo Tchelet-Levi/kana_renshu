@@ -34,7 +34,7 @@
   let quizBoxComponent: QuizBox;
 
   // Consts
-  const placeholderDefaultText = "Answer in romaji";
+  const placeholderDefaultText = "Answer in rōmaji";
 
   // Internal state
   let userInput = "";

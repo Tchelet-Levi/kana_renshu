@@ -30,6 +30,14 @@
       onChange={(e) => updateStore(e, "spacebarAnswers")}
     />
   {/if}
+
+  <!-- Show welcome screen -->
+  <Switch
+    label="Show Welcome Screen"
+    description="Choose whether to show the welcome screen or not."
+    checked={$userSettings.showWelcomeScreen}
+    onChange={(e) => updateStore(e, "showWelcomeScreen")}
+  />
 </div>
 
 <style lang="scss">

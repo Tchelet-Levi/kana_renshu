@@ -50,6 +50,7 @@
 </script>
 
 <aside>
+  <h2 class="title">Include these Kana</h2>
   <h3>Hiragana</h3>
   <ul>
     <li><Checkbox onChange={updateStore} label="Monographs" id="h-mon" checked={hmonChecked} /></li>
@@ -68,6 +69,13 @@
 <style lang="scss">
   @use "../scss/_variables" as *;
   @use "../scss/_themes.scss" as *;
+
+  .title {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
 
   h3 {
     margin: 0;
